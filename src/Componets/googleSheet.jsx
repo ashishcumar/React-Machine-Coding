@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./style.css";
+// import "./style.css";
 
-export default function App() {
+export default function GoogleSheet() {
   const [grid, setGrid] = useState([["a", "b", "c"]]);
 
   const addRow = () => {
